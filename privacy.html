@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NutriAI — Politique de confidentialité</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      max-width: 720px; margin: 40px auto; padding: 0 24px 60px;
+      color: #1a1a1a; line-height: 1.7; background: #fff;
+    }
+    h1 { color: #1D9E75; font-size: 28px; }
+    h2 { color: #1D9E75; font-size: 20px; margin-top: 36px; }
+    h3 { color: #1a1a1a; font-size: 16px; margin-top: 24px; }
+    p, li { color: #333; font-size: 15px; }
+    a { color: #1D9E75; }
+    code, pre { background: #f0faf6; padding: 2px 6px; border-radius: 4px; font-size: 13px; }
+    .update { color: #888; font-size: 13px; font-style: italic; }
+    .back { display: inline-block; margin-bottom: 24px; color: #1D9E75; text-decoration: none; }
+    table { border-collapse: collapse; width: 100%; margin: 16px 0; }
+    th, td { border: 1px solid #e0e0e0; padding: 10px; text-align: left; font-size: 14px; }
+    th { background: #f0faf6; color: #0F6E56; }
+  </style>
+</head>
+<body>
+  <a href="index.html" class="back">← Retour</a>
+  <h1>Politique de confidentialité — NutriAI</h1>
+  <p class="update">Dernière mise à jour : 11 mai 2026</p>
+
+  <p>
+    NutriAI (« nous », « l'application ») est une application mobile de coaching nutritionnel
+    propulsée par l'intelligence artificielle. Cette politique explique de manière transparente
+    quelles données nous collectons, pourquoi, où elles sont stockées, et comment vous pouvez
+    les contrôler. Elle est conforme au <strong>RGPD (Règlement UE 2016/679)</strong>.
+  </p>
+
+  <h2>1. Responsable du traitement</h2>
+  <p>
+    Responsable du traitement : <strong>Karim Amiri</strong><br>
+    Contact : <a href="mailto:karimamiri1987@gmail.com">karimamiri1987@gmail.com</a>
+  </p>
+
+  <h2>2. Données collectées</h2>
+  <table>
+    <tr><th>Catégorie</th><th>Données</th><th>Finalité</th></tr>
+    <tr>
+      <td>Identité</td>
+      <td>Adresse e-mail, prénom (optionnel)</td>
+      <td>Création du compte et authentification</td>
+    </tr>
+    <tr>
+      <td>Données de santé (RGPD Art. 9)</td>
+      <td>Âge, sexe, taille, poids, objectif, niveau d'activité, régime alimentaire, allergies</td>
+      <td>Calcul des besoins caloriques et macronutriments personnalisés</td>
+    </tr>
+    <tr>
+      <td>Journal nutritionnel</td>
+      <td>Photos de repas, ingrédients analysés, macronutriments, dates de consommation</td>
+      <td>Suivi quotidien et historique</td>
+    </tr>
+    <tr>
+      <td>Stock alimentaire</td>
+      <td>Photos du frigo, garde-manger, congélateur, épices</td>
+      <td>Génération de recettes basées sur vos ingrédients</td>
+    </tr>
+    <tr>
+      <td>Suivi du poids</td>
+      <td>Mesures de poids datées</td>
+      <td>Affichage des tendances et progression</td>
+    </tr>
+    <tr>
+      <td>Paiement</td>
+      <td>Informations gérées par Stripe (nous ne stockons aucune donnée bancaire)</td>
+      <td>Abonnement Premium</td>
+    </tr>
+    <tr>
+      <td>Connexion sociale</td>
+      <td>Identifiants Google / Apple / Facebook (e-mail, nom)</td>
+      <td>Connexion simplifiée si vous choisissez OAuth</td>
+    </tr>
+  </table>
+
+  <h2>3. Base légale du traitement</h2>
+  <ul>
+    <li><strong>Consentement explicite</strong> (Art. 6.1.a + Art. 9.2.a) : pour les données de santé. Recueilli à l'inscription.</li>
+    <li><strong>Exécution du contrat</strong> (Art. 6.1.b) : compte, abonnement Premium.</li>
+    <li><strong>Intérêt légitime</strong> (Art. 6.1.f) : sécurité, prévention de la fraude.</li>
+  </ul>
+
+  <h2>4. Sous-traitants et destinataires</h2>
+  <p>Vos données sont partagées uniquement avec les prestataires suivants, indispensables au fonctionnement :</p>
+  <table>
+    <tr><th>Prestataire</th><th>Service</th><th>Localisation</th></tr>
+    <tr><td>Supabase</td><td>Base de données, authentification, stockage de fichiers</td><td>UE (Frankfurt)</td></tr>
+    <tr><td>Anthropic</td><td>Modèle IA Claude (analyse photo, génération de recettes)</td><td>États-Unis (clauses contractuelles types)</td></tr>
+    <tr><td>Stripe</td><td>Gestion des paiements et abonnements</td><td>Irlande / États-Unis (clauses contractuelles types)</td></tr>
+    <tr><td>Resend</td><td>Envoi des e-mails transactionnels (code de connexion)</td><td>États-Unis (clauses contractuelles types)</td></tr>
+  </table>
+  <p>
+    <strong>Aucune donnée n'est vendue, cédée ou utilisée à des fins publicitaires.</strong>
+    Les photos de repas et de stock sont envoyées à Anthropic uniquement pour l'analyse en temps réel
+    et ne sont pas conservées par leurs systèmes au-delà de la requête.
+  </p>
+
+  <h2>5. Durée de conservation</h2>
+  <ul>
+    <li><strong>Compte actif</strong> : les données sont conservées tant que vous utilisez l'application.</li>
+    <li><strong>Compte inactif</strong> (aucune connexion pendant 24 mois) : suppression automatique.</li>
+    <li><strong>Sur demande de suppression</strong> : effacement immédiat (voir section 8).</li>
+    <li><strong>Données de facturation Stripe</strong> : conservées 10 ans (obligation comptable).</li>
+  </ul>
+
+  <h2>6. Sécurité</h2>
+  <ul>
+    <li>Chiffrement TLS 1.3 pour tous les échanges</li>
+    <li>Chiffrement au repos (AES-256) sur Supabase</li>
+    <li>Row-Level Security (RLS) PostgreSQL : aucun utilisateur ne peut accéder aux données d'un autre</li>
+    <li>Authentification par code OTP unique à 6 chiffres ou OAuth (PKCE)</li>
+    <li>Aucun mot de passe stocké</li>
+  </ul>
+
+  <h2>7. Vos droits</h2>
+  <p>Conformément au RGPD, vous disposez à tout moment des droits suivants :</p>
+  <ul>
+    <li><strong>Droit d'accès</strong> (Art. 15) : obtenir une copie de vos données</li>
+    <li><strong>Droit de rectification</strong> (Art. 16) : corriger une donnée erronée</li>
+    <li><strong>Droit à l'effacement</strong> (Art. 17) : voir la <a href="delete-account.html">page de suppression</a></li>
+    <li><strong>Droit à la portabilité</strong> (Art. 20) : recevoir vos données dans un format structuré</li>
+    <li><strong>Droit d'opposition</strong> (Art. 21) : retirer votre consentement à tout moment</li>
+    <li><strong>Droit d'introduire une réclamation</strong> auprès de la CNIL : <a href="https://www.cnil.fr">cnil.fr</a></li>
+  </ul>
+  <p>
+    Pour exercer ces droits, écrivez à
+    <a href="mailto:karimamiri1987@gmail.com">karimamiri1987@gmail.com</a>.
+    Réponse sous 30 jours maximum.
+  </p>
+
+  <h2>8. Suppression de compte</h2>
+  <p>
+    Vous pouvez supprimer définitivement votre compte et l'ensemble de vos données :
+  </p>
+  <ul>
+    <li><strong>Directement depuis l'application</strong> : Profil → ⚠️ Supprimer mon compte</li>
+    <li><strong>Par e-mail</strong> : <a href="mailto:karimamiri1987@gmail.com">karimamiri1987@gmail.com</a></li>
+  </ul>
+  <p>
+    La suppression est immédiate et irréversible. Voir la <a href="delete-account.html">page dédiée</a> pour le détail.
+  </p>
+
+  <h2>9. Cookies et traceurs</h2>
+  <p>
+    NutriAI est une application mobile et n'utilise <strong>aucun cookie de tracking</strong>
+    ni outil d'analyse comportementale (pas de Google Analytics, pas de Facebook Pixel).
+  </p>
+
+  <h2>10. Mineurs</h2>
+  <p>
+    L'application est réservée aux personnes majeures (18 ans et plus). Aucune donnée d'enfant
+    n'est collectée sciemment.
+  </p>
+
+  <h2>11. Modifications de cette politique</h2>
+  <p>
+    Cette politique peut être mise à jour pour refléter des évolutions techniques ou légales.
+    En cas de modification substantielle, vous serez informé par e-mail et / ou notification in-app.
+  </p>
+
+  <h2>12. Contact</h2>
+  <p>
+    Pour toute question relative à vos données personnelles :<br>
+    📧 <a href="mailto:karimamiri1987@gmail.com">karimamiri1987@gmail.com</a>
+  </p>
+</body>
+</html>
